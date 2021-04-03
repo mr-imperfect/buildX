@@ -75,7 +75,7 @@ header .container-left .container-left-logo img{
 .fade.ani.fade{
 
     opacity: 1;
-    transform: translateY(50px);
+    transform: translateY(20px);
 }
 /* .fade.ani .container{
     
@@ -2193,4 +2193,72 @@ input,textarea{
         overflow-x: hidden;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    .section-two-container-left{
+        height: 450px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+       justify-content: flex-start;
+       align-items: flex-end;
+       background-color: rgba(233, 227, 227, 0.109);
+       /* background-color: red; */
+       border: 5px;
+       transform: translateY(200px);
+       opacity: 0;
+       transition: 0.5s ease-in-out;
+    }
+    .section-two-container-left h2{
+        color:rgb(10, 133, 233) ;
+        font-size: 25px;
+        font-weight: lighter    ;
+        
+    }
+    .section-two-container-left h4{
+        font-weight: 100;
+        margin-top: 30px;
+        color: cadetblue;
+    }
+    /* .section-two-container-left ul{
+    
+    } */
+    .section-two h2{
+        /* text-align: left; */
+        margin-right: 150px;
+        font-size: 18px;
+    }
+    .section-two h4{
+        margin-right: 250px;
+    }
+    .section-two-container-left h3{
+        /* list-style: none; */
+        margin-top: 25px;
+        font-weight: 900;
+        font-size: 20px;
+        color:rgb(156, 40, 40);
+        width: 400px;
+        text-align: justify;
+    
+    }
+    .section-two button{
+        margin-right: 220px;
+    }
+
+    .section-two-container-right {
+        margin-right: 100px;
+    }
 }
