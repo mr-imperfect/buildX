@@ -2261,4 +2261,17 @@ input,textarea{
     .section-two-container-right {
         margin-right: 100px;
     }
+
+    .section-three{
+        overflow-x: hidden;
+    }
+    .section-four{
+        overflow-x: hidden;
+    }
+    .section-five{
+        overflow-x: hidden;
+    }
+    .section-six{
+        overflow-x: hidden;
+    }
 }
