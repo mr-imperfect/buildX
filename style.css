@@ -10,7 +10,7 @@ body{
     font-family: "Open Sans", sans-serif;
     scroll-behavior: smooth;
     width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 header{
     height: 90px;
@@ -93,7 +93,7 @@ header .container-left .container-left-logo img{
  }
  .section-one{
      height: 100vh;
-     overflow-x: hidden;
+     /* overflow-x: hidden; */
      /* background-color: rgb(255, 255, 255);
       */
       background: url('./images/hero-bg.png') top center no-repeat;
@@ -165,7 +165,7 @@ header .container-left .container-left-logo img{
  }
  .section-two{
     height: 100vh;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background-color: white;
     display: flex;
     justify-content: center;
@@ -419,7 +419,7 @@ header .container-left .container-left-logo img{
     align-items: center;
 }
 .section-five-container{
-    height: 80vh;
+    height: 100vh;
     width: 80%;
     display: flex;
     align-items: center;
@@ -430,7 +430,7 @@ header .container-left .container-left-logo img{
     /* background-color: red; */
     max-height: 500px;
     margin-top: 100px;
-    display: flex;
+    display: flex;  
     justify-content: space-around;
     flex-wrap: wrap;
     
@@ -759,7 +759,7 @@ cursor: pointer;
 
      
 .section-six{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     height: 60vh;
     width: 100%;
     margin-top: 300px;
@@ -1372,14 +1372,16 @@ display: none;
     }
     .footer{
         margin-top: 750px;
+        width: 100%;
     }
          
 .section-six{
-    height: 60vh;
+    height: 100vh;
     width: 100%;
     margin-top: 300px;
     display: flex;
     flex-direction: column;
+    /* background-color: rebeccapurple; */
     align-items: center;
 }
 .section-six-container{
@@ -1389,15 +1391,17 @@ display: none;
     width: 100%;
     align-items: center;
     /* background-color: red; */
+    
     justify-content: space-around;
 }
 .section-six-container-left-top{
     width:450px;
     height: 200px;
     display: flex;
-    /* background-color: red; */
+    /* background-color: red;   */
+    /* z-index: 9999; */
     justify-content: space-between;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     
     
     /* padding: 20px; */
@@ -1826,6 +1830,8 @@ input,textarea{
 
 @media(max-width:500px){
 
+
+
     header .container{
         display: flex;
         height: 90px;
@@ -1981,6 +1987,142 @@ input,textarea{
         /* text-align: left; */
         /* border: 2px solid red; */
        
+    }
+
+    .section-six{
+        height: 60vh;
+        /* background-color: red; */
+        /* overflow-x: hidden; */
+        /* z-index: 99999; */
+        width: 100%;
+        /* margin-top:1300px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-six-container{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        /* background-color: red; */
+        justify-content: space-around;
+    }
+    .section-six-container-left-top{
+        width:450px;
+        height: 200px;
+        display: flex;
+        /* background-color: red; */
+        justify-content: space-between;
+        margin-top: 100px;
+        
+        
+        /* padding: 20px; */
+    }
+    .section-six-social{
+        height: 150px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        /* padding: 10px 30px; */
+        background: #fafbff;
+        border: 1px solid whitesmoke;
+    }
+    
+    .section-six-icon{
+        font-size: 24px;
+        color:rgb(10, 133, 233)  ;
+    }
+    .section-six-text a{
+        text-decoration: none;
+    }
+    .section-six-heading{
+        color: #444444;
+        font-size:25px;
+    }
+    .section-six h1{
+        color: rgb(10, 133, 233) ;
+        margin-top: -100px;
+        margin-bottom: 150px;
+        font-size: 28px;
+        text-decoration: underline;
+    }
+    .section-six-container-right{
+        margin-top: 100px;
+    }
+    .section-six-container-right input{
+       
+        margin: 7px;
+        
+    }
+    input,textarea{
+        border: 1px solid rgb(10, 133, 233) ;
+        border-radius: 5px;
+        padding: 7px 12px;
+        font-size: 13px;
+        background-clip: padding-box;
+    }
+    
+    .section-six-form{
+        width: 400px;
+        height: 400px;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #44444423;
+    }
+    .section-six-inputtop{
+        display: flex;
+        justify-content: space-between;
+    }
+    .section-six-inputbot input{
+        display: block;
+        width: 250px;
+        margin-bottom: 25px;
+    }
+    
+    .section-five-container{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section-five-container-top{
+        width: 100%;
+        /* background-color: red; */
+        max-height: 200vh;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+        /* background-color: black; */
+    }
+    .section-five-container-top-left,.section-five-container-top-mid,.section-five-container-top-right{
+        max-width: 400px;
+        max-height: 300px;
+        padding: 70px 30px;
+        margin: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+    }
+    .section-five h2{
+        text-align: center;
+        color:rgb(10, 133, 233);
+        font-size: 25px;
+        text-decoration: underline;
+     
     }
 }
 
@@ -2206,7 +2348,7 @@ input,textarea{
 .section-six{
     height: 60vh;
     width: 100%;
-    margin-top: 1400px;
+    /* margin-top: 1400px; */
     display: flex;
     flex-direction: column;
     align-items: center;
