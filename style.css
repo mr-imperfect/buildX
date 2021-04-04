@@ -2261,7 +2261,7 @@ input,textarea{
     .section-two-container-right {
         margin-right: 100px;
     }
-
+/* 
     .section-three{
         overflow-x: hidden;
     }
@@ -2273,5 +2273,109 @@ input,textarea{
     }
     .section-six{
         overflow-x: hidden;
-    }
+    } */
+
+
+
+
+
+
+
+
+    
+.section-six{
+    height: 60vh;
+    width: 100%;
+    margin-top: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-six-container{
+    height: 60vh;
+    display: flex;
+    width: 70%;
+    /* background-color: red; */
+    justify-content: space-around;
+}
+.section-six-container-left-top{
+    width: 300px;
+    height: 200px;
+    margin-top: 250px;
+    /* background-color:red; */
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    margin-top: 100px;
+    
+    
+    /* padding: 20px; */
+}
+.section-six-social{
+    height: 150px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 10px 30px; */
+    background: #fafbff;
+    border: 1px solid whitesmoke;
+}
+
+.section-six-icon{
+    font-size: 17px;
+    color:rgb(10, 133, 233)  ;
+}
+.section-six-text a{
+    text-decoration: none;
+}
+.section-six-heading{
+    color: #444444;
+    font-size:23px;
+}
+.section-six h1{
+    color: rgb(10, 133, 233) ;
+    font-size: 18px;
+    text-decoration: underline;
+    /* margin-bottom: -200px; */
+}
+.section-six-container-right{
+    margin-top: 100px;
+}
+.section-six-container-right input{
+   
+    margin: 10px;
+    
+}
+input,textarea{
+    border: 1px solid rgb(10, 133, 233) ;
+    border-radius: 5px;
+    padding: 7px 10px;
+    font-size: 13px;
+    background-clip: padding-box;
+}
+.section-six-inputtop{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-six-form{
+    width: 300px;
+    height: 430px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #44444423;
+}
+.section-six-inputtop{
+    display: flex;
+    justify-content: space-between;
+}
+.section-six-inputbot input{
+    display: block;
+    width: 200px;
+    margin-bottom: 30px;
+}
 }
