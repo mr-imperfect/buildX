@@ -2210,6 +2210,7 @@ input,textarea{
     .section-two-container-left{
         height: 450px;
         width: 600px;
+        overflow-x: hidden;
         display: flex;
         flex-direction: column;
         /* background-color: red; */
