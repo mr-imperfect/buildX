@@ -2286,7 +2286,7 @@ input,textarea{
 .section-six{
     height: 60vh;
     width: 100%;
-    margin-top: 1400px;
+    margin-top: 1500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2338,7 +2338,7 @@ input,textarea{
     color: rgb(10, 133, 233) ;
     font-size: 18px;
     text-decoration: underline;
-    /* margin-bottom: -200px; */
+    margin-bottom: 250px;
 }
 .section-six-container-right{
     margin-top: 100px;
