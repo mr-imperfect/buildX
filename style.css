@@ -2189,7 +2189,11 @@ input,textarea{
      .section-one{
          overflow-x: hidden;
      }
-     i8
+     
+     .section-two{
+        overflow-x: hidden;
+    }
+    
 
 
 
